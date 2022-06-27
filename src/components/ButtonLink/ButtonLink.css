@@ -1,0 +1,68 @@
+:root{
+    --neon: hsl(317 100% 54%);
+    --background: hsl(323 21% 16%);
+  }
+
+input[type=button]{
+  color: var(--neon);
+  font-size: large;
+  padding: 1em;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border: var(--neon) .125em solid;
+  border-radius: .5em;
+  text-shadow: 0 0 .5em var(--background);
+  background: var(--background);
+  box-shadow: inset 0 0 .5em 0 var(--neon), 0 0 .5em 0 var(--neon);
+  position: relative;
+  margin: 2em;
+  width: 80%
+}
+
+/* input[type=button]:before{
+  position: absolute;
+  background-color: var(--neon);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: perspective(1em) rotateX(50deg) scale(1, 0, .1);
+  filter: blur(1em);
+  opacity: .7;
+  
+}
+
+input[type=button]:after{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--neon);
+  box-shadow: 0 0 2em .5em var(--neon);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 100ms linear;
+} */
+
+/* input[type=button]:hover:after,
+input[type=button]:focus:after{
+  opacity: 1;
+}
+input[type=button]:hover:before,
+input[type=button]:focus:before{
+  opacity: 1;
+} */
+
+input[type=button]:hover
+{
+  color: rgb(46, 0, 133);
+  border-width: 0em;
+  box-shadow: 0 0 100em .5em var(--neon) inset, 0 0 3em .75em var(--neon);
+
+}
+/*
+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
+*/
