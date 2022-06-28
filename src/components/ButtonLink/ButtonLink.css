@@ -1,11 +1,11 @@
 :root{
-    --neon: hsl(317 100% 54%);
-    --background: hsl(323 21% 16%);
+    --neon: rgb(2, 217, 255);
+    --background: rgb(50, 38, 85);
   }
 
 input[type=button]{
   color: var(--neon);
-  font-size: large;
+  font-size: 1.25em;
   padding: 1em;
   display: inline-block;
   cursor: pointer;
@@ -58,9 +58,9 @@ input[type=button]:focus:before{
 
 input[type=button]:hover
 {
-  color: rgb(46, 0, 133);
+  color: rgb(159, 233, 255);
   border-width: 0em;
-  box-shadow: 0 0 100em .5em var(--neon) inset, 0 0 3em .75em var(--neon);
+  box-shadow: 0 0 100em .5em rgb(30, 6, 75) inset, 0 0 3em .75em var(--neon);
 
 }
 /*
