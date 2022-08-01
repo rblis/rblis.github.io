@@ -1,4 +1,4 @@
-import resume from '../files/Resume.pdf';
+import resume from '../files/Resume - Ryan Biswas.pdf';
 
 const AboutPage = () => {
     return (
